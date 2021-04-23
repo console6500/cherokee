@@ -16,4 +16,7 @@ push:
 run:
 	docker run --rm --name cherokee -d -p 80:80 -p 443:443 -p 9090:9090 cherokee:latest
 
+tail:
+	docker run --rm --name cherokee -p 80:80 -p 443:443 -p 9090:9090 cherokee:latest
+
 .PHONY: all build tag push
