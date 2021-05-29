@@ -40,3 +40,4 @@ Open a browser window with `localhost:9090`.  When prompted, enter `admin` for t
 
 *Note that the cherokee-admin command is interactive* so it will keep the shell open until you end the command by entering `CTRL+C` twice.
 
+testing
